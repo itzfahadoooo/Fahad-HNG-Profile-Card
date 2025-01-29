@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fahad Profile Card</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/531148121f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="profile">
+      <div class="profile-card">
+        <img
+          src="/img/profile.jpg"
+          alt="Profile Picture"
+          data-testid="profilePicture"
+          class="profile-img"
+        />
+        <div class="subprofile-1">
+          <h1 data-testid="fullName">Fahad Idrees</h1>
+          <h2 data-testid="jobTitle">Frontend Developer</h2>
+          <p data-testid="shortBio">
+            I am a passionate Frontend Developer with over 7 months of
+            experience in developing scalable web applications. Proficient in
+            React.js, Tailwind CSS and Bootsstrap. Passionate about delivering
+            user-friendly digital solutions and collaborating with
+            cross-functional teams.I develop user-centric applications while
+            solving complex technical challenges in a collaborative
+            environment.I am currently an intern at HNG.
+          </p>
+        </div>
+        <p data-testid="currentLocation" class="location">
+          Ilorin, Nigeria.
+        </p>
+        <p data-testid="emailAddress" class="email">foyindolapo@gmail.com</p>
+
+        <div data-testid="socialLinks" class="profile-socials">
+          <a
+            href="https://www.linkedin.com/in/fahad-idrees-31753832b/"
+            target="_blank"
+            data-testid="socialLinks"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/itzfahadoooo"
+            target="_blank"
+            data-testid="socialLinks"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://x.com/weirdo__boy"
+            target="_blank"
+            data-testid="socialLinks"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+
+        <p data-testid="currentTimeUTC" id="currentTimeUTC"></p>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
